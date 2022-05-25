@@ -2,11 +2,16 @@
 $('#hero')
 	.children()
 	.eq(0)
-	.after('<p>' + 'Welcome to Project Tracker' + '</p>');
+	.after('<p>' + 'Track your projects here' + '</p>');
 
-// update timer
+// update time
 setInterval(() => {
 	$('#time-display').text(moment().format('h:mm:ss a'));
+}, 1000);
+
+// update date
+setInterval(() => {
+	$('#date-display').text(moment().format('Y/M/D'));
 }, 1000);
 
 // datepicker widget from jQuery UI
@@ -45,18 +50,9 @@ function printData(projectName, projectType, hourlyRate, dueDate, daysUntil, pot
 	button.attr('id', 'deleteButton');
 	button.addClass('deleteButton');
 	button.html('<i class="fa-solid fa-trash-can"></i>');
-	createDeleteButton(button);
+
+	button.on('click', (e) => $(e.target).parents('tr').remove());
 	td.append(button);
 	tr.append(td);
 	$('#project-display').append(tr);
-}
-
-// pseudocode
-
-function removeTableRow() {
-	console.log('hello');
-	$(this).parents('tr').remove();
-}
-function createDeleteButton(element) {
-	element.on('click', removeTableRow);
 }
