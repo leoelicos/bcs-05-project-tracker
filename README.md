@@ -1,6 +1,6 @@
 # Project Tracker
 
-![MomentJS](https://img.shields.io/badge/2.29.3-0?label=Moment.JS&style=for-the-badge&labelColor=white&color=black)
+![Bootstrap](https://img.shields.io/badge/4.5.0-0?label=Bootstrap&style=for-the-badge&labelColor=white&color=black) ![jQuery](https://img.shields.io/badge/2.29.3-0?label=jQuery&style=for-the-badge&labelColor=white&color=black) ![jQueryUI](https://img.shields.io/badge/1.12-0?label=JQueryUI&style=for-the-badge&labelColor=white&color=black)
 
 ## Introduction
 
@@ -30,9 +30,7 @@ I made this app to learn about `Bootstrap`, `jQuery`, event delegation as well a
 
 ## Video Demo
 
-
 https://user-images.githubusercontent.com/99461390/170183754-02b86459-8657-4e26-aeaf-02f082e8a0d9.mp4
-
 
 ---
 
