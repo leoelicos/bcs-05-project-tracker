@@ -26,6 +26,9 @@ thead {
 	color: var(--primary);
 	font-weight: 700;
 }
+th {
+	vertical-align: top !important;
+}
 
 .custom-jumbotron,
 .custom-card .card-header,
