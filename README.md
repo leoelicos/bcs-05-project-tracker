@@ -30,17 +30,25 @@ I made this app to learn about `Bootstrap`, `jQuery`, event delegation as well a
 
 ## Video Demo
 
+
+https://user-images.githubusercontent.com/99461390/170183754-02b86459-8657-4e26-aeaf-02f082e8a0d9.mp4
+
+
 ---
 
 ## Screenshots
 
 ### Screenshot: Project Tracker
 
-![Screenshot: Project Tracker]()
+![Screenshot: Project Tracker](https://user-images.githubusercontent.com/99461390/170183762-47bf451c-4a36-4b6e-9215-62df4c488316.jpg)
 
 ### Screenshot: Enter Details
 
-![Screenshot: Enter Details]()
+![Screenshot: Enter Details](https://user-images.githubusercontent.com/99461390/170183771-ecbbbd43-2019-4472-a7ee-566057e1e62b.jpg)
+
+### Screenshot: Select a date
+
+![Screenshot: Select a date](https://user-images.githubusercontent.com/99461390/170183779-d27267c1-39c6-408e-9250-09d893d07c29.jpg)
 
 ## Credits
 
