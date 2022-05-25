@@ -27,7 +27,7 @@ $('#project-form').on('submit', function (e) {
 	var projectName = $('#project-name-input').val();
 	var projectType = $('#project-type-input').val();
 	var hourlyRate = $('#hourly-rate-input').val();
-	var dueDate = $('#due-date-input').val();
+	var dueDate = moment($('#due-date-input').val()).format('Y/M/D');
 	var daysUntil = moment(dueDate).fromNow();
 	var potentialTotalEarnings = 20 * parseInt(hourlyRate);
 	printData(projectName, projectType, hourlyRate, dueDate, daysUntil, potentialTotalEarnings);
